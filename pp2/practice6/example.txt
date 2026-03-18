@@ -1,0 +1,2 @@
+This is a test file for Practice 06.
+I am learning Python.
