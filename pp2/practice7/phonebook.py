@@ -5,7 +5,7 @@ conn = get_connection()
 cur = conn.cursor()
 
 
-# 1️⃣ 从 CSV 插入
+
 def insert_from_csv(filename):
     with open(filename, 'r', encoding='utf-8') as file:
         reader = csv.DictReader(file)
@@ -18,7 +18,7 @@ def insert_from_csv(filename):
     print("CSV data inserted.")
 
 
-# 2️⃣ 控制台插入
+
 def insert_from_console():
     name = input("Enter name: ")
     phone = input("Enter phone: ")
@@ -31,7 +31,7 @@ def insert_from_console():
     print("Contact added.")
 
 
-# 3️⃣ 查询
+
 def query_contacts():
     print("1 - Show all")
     print("2 - Search by name")
@@ -55,7 +55,7 @@ def query_contacts():
         print(row)
 
 
-# 4️⃣ 更新
+
 def update_contact():
     name = input("Enter name to update: ")
     new_name = input("New name (or press enter): ")
