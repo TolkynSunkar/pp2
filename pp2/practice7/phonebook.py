@@ -70,7 +70,7 @@ def update_contact():
     print("Updated.")
 
 
-# 5️⃣ 删除
+
 def delete_contact():
     print("1 - Delete by name")
     print("2 - Delete by phone")
@@ -88,7 +88,7 @@ def delete_contact():
     print("Deleted.")
 
 
-# 🎯 主菜单
+
 def menu():
     while True:
         print("\nPhoneBook Menu:")
